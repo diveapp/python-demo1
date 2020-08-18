@@ -15,3 +15,13 @@ print('abc \ndef')
 
 #不转义
 print(r'abc \n def')
+
+dict = {
+    'api.register': ['email', 'username', 'password']
+}
+
+for i in dict:
+    print(type(i))
+    print(i)
+
+print('{a}'.format(a='123'))
